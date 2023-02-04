@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratoin</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <h3>You can fill up you details for Examination.</h3>
+    
+    <form action="/action.php"method="Post">
+        <label> Name:</label>
+        <input type="text"placeholder="Enter Name">
+        <label>Password</label>
+        <input type="password"placeholder="enter your password">
+        <br/><br/>
+        <label>Email:</label>
+        <input type="email">
+        <p>Select Date:<input type="date"></p>
+    <p>Select Class:<label for="01">
+        <input type="radio" value="class 11" name="class"id="01">class 11
+    </label>
+    <label for="02">
+        <input type="radio" value="class 12" name="class"id="02">class 12
+    </label> </p>
+    <p>Choose Your Subjects:</p>
+
+    <label for="Maths">
+        <input type="checkbox"value="Maths"name="subject"id="3">Maths
+    </label> <br/>
+    <label for="Science">
+        <input type="checkbox"value="Science"name="subject"id="4">Science
+    </label><br/>
+    <label for="English">
+        <input type="checkbox"value="English"name="subject"id="5">English
+    </label><br/>
+    <label for="Physics">
+        <input type="checkbox"value="Physics"name="subject"id="6">Physics
+    </label><br/>
+    <label for="Biology">
+        <input type="checkbox"value="Biology"name="subject"id="7">Biology
+    </label><br/><br/>
+    <select name="City" id="city">
+        <option value="Dang">Dang</option>
+        <option value="Kathmandu">Kathmandu</option>
+        <option value="Lumbini">Lumbini</option>
+        <option value="Butwal">Butwal</option>
+        <option value="Banke">Banke</option>
+
+    </select>
+    <br/>
+     <textarea name="Feedback"id="7"placeholder="Please give your valuable feedback here"
+     rows="8">feedback</textarea>
+    <br/>
+    <input type = "submit"value="submit"></type>  
+
+</form>
+
+    
+</body>
+</html>
